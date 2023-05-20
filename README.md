@@ -1,2 +1,1 @@
-# Curso-html
-Um repositório simples utilizado no curso de Html
+# Repositório do curso Desenvolvimento Responsivo com HTML5, CSS3, e Javascript da Udemy
