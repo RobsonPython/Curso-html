@@ -1,5 +1,10 @@
-*{
+/* Base */
+{
     box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 @font-face{
     font-family: "Source Sans Pro";
