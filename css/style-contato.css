@@ -28,3 +28,20 @@
     margin: 0 auto;
     font-weight: bold;
 }
+
+
+.mapa{
+    background: #f00;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 -15px -25px --15px;
+}
+.mapa iframe{
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
