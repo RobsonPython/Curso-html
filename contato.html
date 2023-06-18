@@ -7,6 +7,8 @@
     <title>Design Responsivo - Contato</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-pagina.css">
+    <link rel="stylesheet" href="css/style-contato.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -24,27 +26,27 @@
     <main>
         <header>
     <main>
-        <header>
-            <h1>Contato</h1>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contato</h1>
         </header>
-        <section>
-            <p>suspendisse convallis, turpis  vitae placerat luctus, est felis dictum augue.</p>
-            <form action="#">
-                <div>
-                    <label for="nome">Nome</label><br>
-                    <input id="nome" type="text" nome="nome">
+        <section class="pagina-conteudo">
+            <p class="text-center">suspendisse convallis, turpis  vitae placerat luctus, est felis dictum augue.</p>
+            <form action="#" class="formulario">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="nome">Nome</label><br>
+                    <input class="formulario__campo" id="nome" type="text" nome="nome">
                 </div>
-                <div>
-                    <label for="email">E-mail</label><br>
-                    <input id="email" type="email" nome="email">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="email">E-mail</label><br>
+                    <input class="formulario__campo" id="email" type="email" nome="email">
                 </div>
-                <div>
-                    <label for="mensagem">Mensagem</label><br>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
+                    <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
                 </div>
-                <input type="submit" value="Enviar">
+                <input type="submit" class="formulario__botao" value="Enviar">
             </form>
-            <p>
+            <p class="text-center">
                 pat. Vivamus cursus pulvinar turpis, nec blandit augue maximus ac. <br>
                 Maecenas facilis volutpat ipsum, sed faucibus tortor Aliquam non. 
             </p>
